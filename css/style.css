@@ -1,0 +1,118 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    font-size:18px;
+}
+
+h3{
+    font-size:16px;
+}
+
+nav{
+    background-color: lightgrey
+}
+
+.wrapper{
+    height:500px;
+    background-color: rgb(0, 149, 255);
+}
+
+.left{
+    width:29%;
+    height: 100%;
+    background-color: aqua;
+    float: left;
+}
+
+.right{
+width: 70%;
+height: 100%;
+background-color: lightblue;
+float: right;
+}
+
+.navItem{
+    background-color: rgb(158, 158, 158);
+    display: inline-block;
+    padding: 20px;
+    width: 60px;
+    text-align: center;
+
+
+
+}
+
+.profile{
+    background-color: rgb(0, 149, 255);
+    height: 110px;
+    text-align: center;
+    padding: 20px;
+    
+
+}
+
+.profile p{
+    margin-top:8px;
+}
+
+
+.stats{
+    background-color: rgb(0, 149, 255);
+    height: 310px;
+    padding: 20px;
+
+
+
+
+}
+
+.profile img{
+    width:80px;
+    border-radius: 50%
+}
+
+.stats h3{
+    margin-top: 0;
+}
+
+.stats ul{
+    list-style-type: none;
+    padding-left:0;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+.hero{
+    height:240px;
+    background-color: rgb(136, 96, 189);
+    margin: 20px;
+}
+
+.hero img{
+    width:200px;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+}
+
+.gallery{
+    height:180px;
+    background-color: rgb(136, 96, 189);
+    margin: 20px;
+    text-align: center;
+}
+
+.gallery img{
+    width: 30%;
+     border-radius: 25px;
+  background: url(paper.gif);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+
